@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <!-- script bootstrap -->  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+        <!-- Barre de navigation -->
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <!-- menu de navigation -->
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> <!-- pour faire apparaitre mon icône hamburger -->
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav w-100 d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a href="#accueil" class="nav-link text-dark">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link text-dark">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link text-dark">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link text-dark">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link text-dark">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <!-- Accueil -->
+
+        <div  class="text-white bg-black text-center d-flex flex-column align-items-center w-100 h-75 p-3 mx-auto" id="accueil">
+
+            <div class="mt-auto">
+                <img src="ressources/man.svg" alt="profile pic" class="imgProfileAcc">
+                <h1>Salut, moi c'est Amr Laghmich.</h1>
+                <p class="lead">Je suis développeur full stack, spécialisé dans les différents frameworks javascript.</p>
+                <p class="lead">
+                    <a href="#about" class="btn btn-lg btn-secondary">En savoir plus</a>
+                </p>
+
+            </div>
+
+            <div class="mt-auto">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+        </div>
+
+        <!-- Portfolio -->
+
+        <div class="py-5" id="portfolio">
+            <h2 class="text-center mb-5 text-uppercase">Portfolio</h2>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="ressources/ReactTwitch.png" alt="card image" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Cloner Twitch avec React</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id convallis ipsum. In fermentum bibendum.
+                                 <div class="btn-group">
+                                    <a href="https://github.com/" target="_blank" class="text-dark">
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                             Code source
+                                        </button>
+                                    </a>
+                                    <a href="#" target="_blank" class="text-dark ml-2"> <!-- Ici, le margin left 2 ne passe pas je ne sais pas pourquoi donc mes boutons seront collés-->
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            Voir le Projet
+                                        </button>
+                                    </a>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="ressources/animation.jpg" alt="card image" class="card-img-top">
+                            <div class="card-body">
+                                <h4>UI / UX</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id convallis ipsum. In fermentum bibendum.
+                                <div class="btn-group">
+                                    <a href="https://github.com/" target="_blank" class="text-dark">
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            Code source
+                                        </button>
+                                    </a>
+                                    <a href="#" target="_blank" class="text-dark ml-2"> <!-- Ici, le margin left 2 ne passe pas je ne sais pas pourquoi donc mes boutons seront collés-->
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            Voir le Projet
+                                        </button>
+                                    </a>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="ressources/MeteoApp.png" alt="card image" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Application météo</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id convallis ipsum. In fermentum bibendum.
+                                <div class="btn-group">
+                                    <a href="https://github.com/" target="_blank" class="text-dark">
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            Code source
+                                        </button>
+                                    </a>
+                                    <a href="#" target="_blank" class="text-dark ml-2"> <!-- Ici, le margin left 2 ne passe pas je ne sais pas pourquoi donc mes boutons seront collés-->
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            Voir le Projet
+                                        </button>
+                                    </a>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="ressources/SiteMenu.png" alt="card image" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Design responsive</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id convallis ipsum. In fermentum bibendum.
+                                <div class="btn-group">
+                                    <a href="https://github.com/" target="_blank" class="text-dark">
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            Code source
+                                        </button>
+                                    </a>
+                                    <a href="#" target="_blank" class="text-dark ml-2"> <!-- Ici, le margin left 2 ne passe pas je ne sais pas pourquoi donc mes boutons seront collés-->
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            Voir le Projet
+                                        </button>
+                                    </a>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="ressources/SiteResPic.jpg" alt="card image" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Site pour particulier</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id convallis ipsum. In fermentum bibendum.
+                                <div class="btn-group">
+                                    <a href="https://github.com/" target="_blank" class="text-dark">
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            Code source
+                                        </button>
+                                    </a>
+                                    <a href="#" target="_blank" class="text-dark ml-2"> <!-- Ici, le margin left 2 ne passe pas je ne sais pas pourquoi donc mes boutons seront collés-->
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            Voir le Projet
+                                        </button>
+                                    </a>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="ressources/Visu.jpg" alt="card image" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Visualisation de données</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id convallis ipsum. In fermentum bibendum.
+                                <div class="btn-group">
+                                    <a href="https://github.com/" target="_blank" class="text-dark">
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            Code source
+                                        </button>
+                                    </a>
+                                    <a href="#" target="_blank" class="text-dark ml-2"> <!-- Ici, le margin left 2 ne passe pas je ne sais pas pourquoi donc mes boutons seront collés-->
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            Voir le Projet
+                                        </button>
+                                    </a>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="ressources/js.jpg" alt="card image" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Javascript Moderne</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id convallis ipsum. In fermentum bibendum.
+                                <div class="btn-group">
+                                    <a href="https://github.com/" target="_blank" class="text-dark">
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            Code source
+                                        </button>
+                                    </a>
+                                    <a href="#" target="_blank" class="text-dark ml-2"> <!-- Ici, le margin left 2 ne passe pas je ne sais pas pourquoi donc mes boutons seront collés-->
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            Voir le Projet
+                                        </button>
+                                    </a>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="ressources/grid.jpg" alt="card image" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Grille CSS</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id convallis ipsum. In fermentum bibendum.
+                                <div class="btn-group">
+                                    <a href="https://github.com/" target="_blank" class="text-dark">
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            Code source
+                                        </button>
+                                    </a>
+                                    <a href="#" target="_blank" class="text-dark ml-2"> <!-- Ici, le margin left 2 ne passe pas je ne sais pas pourquoi donc mes boutons seront collés-->
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            Voir le Projet
+                                        </button>
+                                    </a>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="ressources/bulma.jpg" alt="card image" class="card-img-top">
+                            <div class="card-body">
+                                <h4>Framework Bulma</h4>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id convallis ipsum. In fermentum bibendum.
+                                <div class="btn-group">
+                                    <a href="https://github.com/" target="_blank" class="text-dark">
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            Code source
+                                        </button>
+                                    </a>
+                                    <a href="#" target="_blank" class="text-dark ml-2"> <!-- Ici, le margin left 2 ne passe pas je ne sais pas pourquoi donc mes boutons seront collés-->
+                                        <button class="btn btn-sm btn-outline-secondary">
+                                            Voir le Projet
+                                        </button>
+                                    </a>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                    
+
+            </div>
+
+        </div>
+
+
+        <!-- script bootstrap -->     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script src="app.js"></script>
+    </body>
+
+</html>
